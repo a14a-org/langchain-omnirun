@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "langchain-omnirun"
+version = "0.1.0"
+description = "LangChain integration for OmniRun sandboxes — execute code in isolated Firecracker microVMs"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core>=0.2",
+    "omnirun>=0.5.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "langchain>=0.2"]
