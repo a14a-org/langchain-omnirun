@@ -10,7 +10,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
-    "langchain-core>=1.4.9",
+    "langchain-core>=1.5.0",
     "omnirun>=0.6.1",
 ]
 
