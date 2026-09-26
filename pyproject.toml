@@ -7,7 +7,7 @@ name = "langchain-omnirun"
 version = "0.1.0"
 description = "LangChain integration for OmniRun sandboxes — execute code in isolated Firecracker microVMs"
 readme = "README.md"
-license = "MIT"
+license = "Apache-2.0"
 requires-python = ">=3.10"
 dependencies = [
     "langchain-core>=1.6.4",
