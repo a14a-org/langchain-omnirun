@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=9.1.1", "langchain>=1.4.6", "ruff>=0.17.1", "mypy>=2.4.0"]
+dev = ["pytest>=9.1.1", "langchain>=1.4.7", "ruff>=0.17.1", "mypy>=2.4.0"]
 
 [tool.ruff]
 target-version = "py310"
